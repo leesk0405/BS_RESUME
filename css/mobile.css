@@ -292,7 +292,6 @@ section .sub_title span {
   background-color: #f2f2f2;
   border-radius: 8px;
   margin-bottom: 16px;
-  list-style: disc;
   /* list-style: disc; */
 }
 .section1 .row2 .con li{
@@ -324,6 +323,9 @@ section .sub_title span {
   width: 100%;
 }
 /* arrow02 */
+.section1 .row2 .con, .section1 .row3 .con {
+  font-weight: 600;
+}
 .section1 .row3 {
   margin-top: 30px;
   padding-bottom: 30px;
@@ -335,11 +337,13 @@ section .sub_title span {
   padding: 20px;
   background-image: linear-gradient(
   90deg,
-  rgba(241 90 41/.02) 0%, #d3d8f9  100% /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
+  rgba(241 90 41/.02) 0%, #eaedff 100% 
  );
+ /* background-color: #eaedff; */
+ /*fcd7ca 35*/ /*fffbfa 45*/ /*fde9e2 40*/
   border-radius: 8px;
   margin-bottom: 16px;
-  list-style: disc;
+
   /* list-style: disc; */
 }
 .section1 .row3 .con2 {
@@ -363,10 +367,10 @@ section .sub_title span {
   text-align: left;
 }
 .section1 .row3 .con2 p span {
-  background-color: #fff;
-  color: #1428a0;
-  font-weight: 500;
-  padding: 2px;    
+  /* background-color: #fff; */
+  /* color: #1428a0; */
+  font-weight: 600;
+  /* padding: 2px;*/
 }
 .section1 .row3 .result {
   color: #1428a0;
